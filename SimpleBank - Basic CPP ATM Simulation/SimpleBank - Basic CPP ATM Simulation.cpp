@@ -70,7 +70,7 @@ void process() {
         cin >> option;
 
         if (option == 'Y' || option == 'y') {
-            process(); // إعادة المحاولة
+            process(); 
         }
         else {
             cout << "Exiting program..." << endl;
